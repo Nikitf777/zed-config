@@ -1,0 +1,47 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-d": "editor::DuplicateSelection",
+      "ctrl-u": "editor::DeleteLine",
+      "f10": "debugger::StepOver",
+      "f11": "debugger::StepInto"
+      // "j k": "vim::SwitchToNormalMode"
+    }
+  },
+  {
+    "bindings": {
+      "f10": "debugger::StepOver"
+    }
+  },
+  {
+    "bindings": {
+      "f11": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "f10": null
+    }
+  },
+  {
+    "context": "ApplicationMenu",
+    "bindings": {
+      "f10": null
+    }
+  }
+]
